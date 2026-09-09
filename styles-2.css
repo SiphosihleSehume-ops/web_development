@@ -58,3 +58,14 @@ li:hover {
   /* And change the background colour to a shade of green */
   background-color: #84c754;
 }
+
+/* Custom generated styles for my `Blob` Section */
+
+.freestyle {
+  display: flex;
+  align-items: center;
+  background-color: #282a35;
+  border: #282a35;
+  padding: 25px;
+}
+
