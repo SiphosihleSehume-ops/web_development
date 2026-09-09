@@ -46,7 +46,6 @@
 
 * `gap` allows for elements inside the container to have space between them. 
 
-* `align items`:
 - Along the main axis (`left to right`): 
 
 `justify-content: center;`. Common values include `flex-start, center, flex-end, space-between, space-around, space-evenly`.
