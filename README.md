@@ -20,7 +20,15 @@
 
 # Flexbox
 
-* Example HTML code;p
+* Example HTML code;
+
+```
+<section class="freestyle">
+    <p>[1]<p/>
+    <p>[2]<p/>
+    <p>[3]<p/>
+<section/>
+```
 
 * Example CSS code: 
 
@@ -36,4 +44,19 @@
 
 * `Horiontal flex` - set flex direction to row: 
 
+* `gap` allows for elements inside the container to have space between them. 
 
+* `align items`:
+- Along the main axis (`left to right`): 
+
+`justify-content: center;`. Common values include `flex-start, center, flex-end, space-between, space-around, space-evenly`.
+
+- Along the cross axis (`top to bottom`):
+
+`align-items: center;`. Common values `stretcflex-start, center, flex-end`. 
+
+* `flex-wrap: wrap` allows items to move onto multiple lines if there isn't enough space.
+
+* `flex: 1;` makes items share available space. You can also use `flex-grow, flex-shrink, flex-basis: 200px;`. 
+
+* `align-self: center;` change an items alignment.
