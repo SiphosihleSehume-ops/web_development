@@ -11,3 +11,29 @@
 * `currentTarget` refers to the element the event handler is attached to.
 
 * `alert` a JS browser function that will display a modal pop-up. `someVariable.innerHTML
+
+## Cascading Style-Sheets
+
+* `id` meant to identiy one unique element on a page i.e. `#demo`
+ 
+* `class` used on multiple elements. Apply same styling to several elements i.e. `.freestyle`
+
+# Flexbox
+
+* Example HTML code;p
+
+* Example CSS code: 
+
+```
+.container {
+    display: flex;
+    ...
+}
+```
+* Flexbox is  a CSS layout system for arranging elements along one dimension:
+- `horizontally` -> a row
+- `vertically` -> a column
+
+* `Horiontal flex` - set flex direction to row: 
+
+
